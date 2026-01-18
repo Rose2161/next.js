@@ -13,9 +13,9 @@
     "seed:run": "knex seed:run"
   },
   "dependencies": {
-    "knex": "0.95.15",
+    "knex": "2.4.0",
     "next": "latest",
-    "pg": "8.4.1",
+    "pg": "8.11.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }

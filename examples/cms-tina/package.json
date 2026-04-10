@@ -10,7 +10,7 @@
   },
   "dependencies": {
 
-    "@tinacms/cli": "^1.5.47",
+    "@tinacms/cli": "^2.2.2",
 
     "classnames": "2.3.1",
     "date-fns": "2.29.3",

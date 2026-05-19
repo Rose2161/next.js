@@ -186,7 +186,8 @@ export async function middleware(request) {
   }
 
   if (url.pathname.endsWith('/root-subrequest')) {
-    const res = await fetch(url)
+    const safeUrl = new URL('/', request.url)
+    const res = await fetch(safeUrl)
     res.headers.set('x-dynamic-path', 'true')
     return res
   }

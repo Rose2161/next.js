@@ -79,9 +79,8 @@ export async function middleware(request) {
 
   if (url.pathname.startsWith('/fetch-user-agent-default')) {
     try {
-      const apiRoute = new URL(url)
-      apiRoute.pathname = '/api/headers'
-      const res = await fetch(withLocalIp(apiRoute))
+      const apiRoute = new URL('/api/headers', 'http://127.0.0.1')
+      const res = await fetch(apiRoute)
       return serializeData(await res.text())
     } catch (err) {
       return serializeError(err)

@@ -11,7 +11,7 @@
   "dependencies": {
 
 
-    "@graphql-mesh/cli": "0.82.35",
+    "@graphql-mesh/cli": "0.83.0",
 
 
     "@graphql-mesh/config": "0.35.1",

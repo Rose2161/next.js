@@ -11,14 +11,14 @@
   "dependencies": {
 
 
-    "@graphql-mesh/cli": "0.82.35",
+    "@graphql-mesh/cli": "0.83.0",
 
 
-    "@graphql-mesh/config": "0.35.1",
-    "@graphql-mesh/new-openapi": "0.4.10",
-    "@graphql-mesh/runtime": "0.46.16",
+    "@graphql-mesh/config": "0.36.0",
+    "@graphql-mesh/new-openapi": "0.4.21",
+    "@graphql-mesh/runtime": "0.46.21",
     "@graphql-yoga/node": "latest",
-    "graphql": "16.3.0",
+    "graphql": "16.8.1",
     "next": "latest",
     "react": "18.0.0",
     "react-dom": "18.0.0"
